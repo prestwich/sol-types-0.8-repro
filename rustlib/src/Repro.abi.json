@@ -1,0 +1,70 @@
+[
+  {
+    "type": "function",
+    "name": "binding_error",
+    "inputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct L2.CantBeAParam",
+        "components": [
+          {
+            "name": "thing",
+            "type": "tuple",
+            "internalType": "struct L1.Nested",
+            "components": [
+              {
+                "name": "thing",
+                "type": "tuple",
+                "internalType": "struct L1.Thing",
+                "components": [
+                  {
+                    "name": "a",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "binding_ok",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct L2.CantBeAParam",
+        "components": [
+          {
+            "name": "thing",
+            "type": "tuple",
+            "internalType": "struct L1.Nested",
+            "components": [
+              {
+                "name": "thing",
+                "type": "tuple",
+                "internalType": "struct L1.Thing",
+                "components": [
+                  {
+                    "name": "a",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]
